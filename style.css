@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: relative;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+nav {
+  background: #fe9a99;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-right: 60px;
+}
+.logo {
+  flex: 1;
+  margin-left: 40px;
+}
+
+.logo h1 {
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+.list-items {
+  flex: 2;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: 0.4s background;
+}
+
+.link:hover {
+  color: #ba4c4a;
+}
+
+.main {
+  background: #fe9a99;
+  height: 90vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-left {
+  height: 100%;
+  width: 50%;
+}
+.main-right {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.img-v {
+  height: 30vw;
+  width: 30vw;
+}
+
+.main-right p {
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.text {
+  margin-left: 18%;
+  padding-top: 30%;
+}
+
+.text span {
+  font-size: 7vw;
+  letter-spacing: 25px;
+  font-weight: bold;
+}
+
+.text p {
+  padding-top: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
