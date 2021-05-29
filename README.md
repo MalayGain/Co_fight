@@ -1,8 +1,8 @@
 <div align="center">
   <h1 ><a href="https://cofighthackon.netlify.app/">Co-Fight</a></h1>
-  <strong>
+  <b>
     Our battle against Corona Virus
-  </strong>
+  </b>
   <a href="https://cofighthackon.netlify.app/">
     <img 
     alt="Co-Fight" 
@@ -11,7 +11,7 @@
 </div>
 <hr>
 
-Covid-19 has been affecting us since the last one and a half years. We thought it would be a good idea to come up with a web app which would provide all your requirements regarding covid in one place. Our Co-Fight app contains links to all the important portals like CoWin, Who and MoHFW. It also contains a visualisation of vaccinations , a Covid Tracker and also a vaccinatination visualisation.  
+Covid-19 has been affecting us since the last one and a half years. We thought it would be a good idea to come up with a web app which would provide all your requirements regarding covid in one place. Our Co-Fight app contains links to all the important portals like CoWin, Who and MoHFW. It also contains a visualisation of vaccinations , a Covid Tracker and also a vaccination visualization.  
 
 ## Our chosen theme 👉 
 ![covid-impact](./images/cov_impact.png)
@@ -55,3 +55,6 @@ HTML, CSS, React, Material UI
 1. We plan on improving the app's functionalities and implement user authentication.
 2. To help people check their health status.
 
+
+## View our Deployment here 👉
+https://cofighthackon.netlify.app/
