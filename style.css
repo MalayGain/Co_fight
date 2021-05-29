@@ -46,7 +46,8 @@ nav {
 }
 
 .link:hover {
-  color: #ba4c4a;
+  color: #270b8a;
+  text-decoration:underline;
 }
 
 .main {
