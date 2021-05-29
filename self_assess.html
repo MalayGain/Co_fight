@@ -8,9 +8,14 @@
    </head>
 <body>
   <div class="container">
-    <div class="title">Self Assessment Report</div>
+    <div class="title"><strong>Self-Assessment-Report <right><a href="index.html">Home</a></right></strong></div>
     <div class="content">
       <form action="#">
+        <div class="result" id="result">
+          <label><h2><br>Output: </h2></label>
+          <p><span id='display'></span></span></p>
+        </div>
+        <div class="all" id="all">
         <div class="user-details">
           <div class="input-box">
             <span class="details">Confirm/Change your Age</span>
@@ -18,8 +23,8 @@
           </div>
           </div>
           <div class="vaccine-details">
-            <input type="radio" name="vaccine" id="dot-1">
-            <input type="radio" name="vaccine" id="dot-2">
+            <input type="radio" name="vaccine" id="dot-1" value="dot-1">
+            <input type="radio" name="vaccine" id="dot-2" value="dot-2">
             <span class="vaccine-title">Have you taken the Vaccine?</span>
             <div class="category">
               <label for="dot-1">
@@ -53,7 +58,7 @@
             <div class="checkboxes">
             <input type="checkbox" id="box" name="box" value="box">
             <label for="box">Cough</label>
-            <input type="checkbox" id="fever" name="fever" value="fever">
+            <input type="checkbox" id="fever" name="box" value="fever">
             <label for="fever">Fever</label>
             <input type="checkbox" id="breathe" name="breathe" value="breathe">
             <label for="breathe">Difficulty in Breathing</label>
@@ -93,7 +98,7 @@
             <label for="kidney">Kidney Disorder</label>
             <input type="checkbox" id="asthma" name="asthma" value="asthma">
             <label for="asthma">Asthma</label>
-            <input type="checkbox" id="none" name="none" value="none">
+            <input type="checkbox" id="noneof" name="none" value="none">
             <label for="gastro">None of These</label>
             </span>
           </div><br>
@@ -105,11 +110,11 @@
             <div class="category2">
               <label for="dot2-1">
               <span class="dot2 one"></span>
-              <span class="normal">I have recently interacted with COVID-19 +ve person</span>
+              <span class="normal">I have recently interacted with a COVID-19 +ve person</span>
             </label>
             <label for="dot2-2">
               <span class="dot2 two"></span>
-              <span class="normal">I examined COVID-19 confirmed case</span>
+              <span class="normal">I examined a COVID-19 confirmed case</span>
             </label>
             <label for="dot2-3">
               <span class="dot2 three"></span>
@@ -118,18 +123,66 @@
         </div>
         <div class="button">
           <button id="submit_btn">Submit</button><br><br>
-          <label><h2>Output: </h2></label>
-          <p><span id='display'></span></span></p>
+          
+          
         </div>
+      </div>
       </form>
     </div>
   </div>
   <script language="JavaScript">
+    document.getElementById("result").style.display="none";
+    // console.log(getElementsByName("vaccine"));
     document.getElementById("submit_btn").addEventListener("click", function(event){
       event.preventDefault();
-      document.getElementById('display').innerHTML = 
-                        //document.getElementById("ref_no").value + '-' +
-                      document.getElementById("age").value ; 
+      var s="";
+      s+=document.getElementById("age").value>=50?"<br>◈ According to your age you are at higher risk for severe illness on getting COVID-19.<br>":"<br>◈ Since your age is less than 50, the risk for severe illness with COVID-19 is lesser.<br>";
+      var x=document.getElementsByName("vaccine");
+      
+      // x.map((y)=>{console.log(y.value)});
+      // console.log(x.length);
+      for(var i=0;i<x.length;i++)
+      {
+        if(x[i].checked)
+        {
+          s+=x[i].value=="dot-1"?"◈ As you have taken vaccine you are safer but maintaing precautions is a must.<br>":"◈ Please take the vaccine when available and try to follow the COVID-19 precautions.<br>";
+        }
+      }
+      var y=document.getElementsByName("dose");
+      var t="";
+      // x.map((y)=>{console.log(y.value)});
+      console.log(y.length);
+      for(var j=0;j<y.length;j++)
+      {
+        if(y[j].checked)
+        {
+          s+=y[j].value=="dot1-1"?"◈ Please take the second dose of the vaccine when available.<br>":"◈ Congrats ! You have reduced your chance of getting COVID-19 by 99.96% by taking both doses of the vaccine.<br>";
+          // console.log("high");
+          // console.log(x[i].value);
+        }
+      }
+      s+=document.getElementById("none").checked?"◈ Since you don't have any of the above symptoms,you are safe.<br>":"◈ Please consult a Doctor before your condition detoriate further.<br>";
+      s+=document.getElementById("noneof").checked?"◈ Since you don't have any of the above pre-existing conditions, your chance of hospitalization,intensive care, or of requiring a ventilator is less.<br>":"◈Since you have pre-existing conditions(comorbidity) your chance of hospitalization,intensive care, or of requiring a ventilator is more on getting COVID-19,so please stay safe by following protocols.<br>";
+      var z=document.getElementsByName("normal");
+      var u="";
+      // x.map((y)=>{console.log(y.value)});
+      console.log(z.length);
+      for(var k=0;k<z.length;k++)
+      {
+        if(z[k].checked)
+        {
+          s+=z[k].value=="dot2-3"?"◈ Since you haven't interacted or examined anyone,you are safe.<br>":"◈ If you observe any of the symptoms in yourself within 14 days of interaction please consult a doctor.<br>";
+          // console.log("high");
+          // console.log(x[i].value);
+        }
+      }
+      document.getElementById('display').innerHTML=s;
+      document.getElementById("all").style.display="none";
+      document.getElementById("result").style.display="block";
+      // document.getElementById('display').innerHTML = 
+      //                   //document.getElementById("ref_no").value + '-' +
+      //                 //document.getElementById("age").value ; 
+      //                 document.getElementsByName("vaccine");
                       // + ' (' + document.getElementById("year").value +')'
                       // + ' ' + '<i>' + document.getElementById("title").value + '</i>'+', ' + document.getElementById("edition").value + ' edn., '
                       // + document.getElementById("place").value + ': ' + document.getElementById("pub_name").value  + '.' ;
