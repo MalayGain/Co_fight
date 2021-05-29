@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;1,300&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+.header{
+  position: relative;
+}
+
+.custom{
+  background-color: #161b22;
+  color: white;
+}
+
+.tooltip-card{
+  background-color: white;
+  padding: 2px;
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.content-row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.tooltip-header{
+  font-weight: 600;
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+.heading{
+  font-weight: 600;
+}
+
+.tooltip-img{
+ height: 14px;
+ margin-right: 2px;
+}
+
+.map-marker{
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #1de9b6;
+  opacity: 0.5;
+}
+
+.map{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+}
