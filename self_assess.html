@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>COVID_19 Self Assessment</title>
+    <link rel="stylesheet" href="styles_assess.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Self Assessment Report</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Confirm/Change your Age</span>
+            <input type="text"name="age" id="age" placeholder="Enter your age" required>
+          </div>
+          </div>
+          <div class="vaccine-details">
+            <input type="radio" name="vaccine" id="dot-1">
+            <input type="radio" name="vaccine" id="dot-2">
+            <span class="vaccine-title">Have you taken the Vaccine?</span>
+            <div class="category">
+              <label for="dot-1">
+              <span class="dot one"></span>
+              <span class="vaccine">Yes</span>
+            </label>
+            <label for="dot-2">
+              <span class="dot two"></span>
+              <span class="vaccine">No</span>
+            </label>
+            </div>
+            </div>
+            <div class="dose-details">
+              <input type="radio" name="dose" id="dot1-1">
+              <input type="radio" name="dose" id="dot1-2">
+              <span class="dose-title">If Yes how many doses?</span>
+              <div class="category1">
+                <label for="dot1-1">
+                <span class="dot1 one"></span>
+                <span class="dose">First Dose</span>
+              </label>
+              <label for="dot1-2">
+                <span class="dot1 two"></span>
+                <span class="dose">Both Doses</span>
+              </label>
+          </div>
+          <div class="input-box">
+            <span>
+            <span class="details">Are you experiencing any of the following symptoms?</span>
+            <!-- <div class="category"> -->
+            <div class="checkboxes">
+            <input type="checkbox" id="box" name="box" value="box">
+            <label for="box">Cough</label>
+            <input type="checkbox" id="fever" name="fever" value="fever">
+            <label for="fever">Fever</label>
+            <input type="checkbox" id="breathe" name="breathe" value="breathe">
+            <label for="breathe">Difficulty in Breathing</label>
+            <input type="checkbox" id="sore" name="sore" value="sore">
+            <label for="sore">Sore throat</label>
+            <input type="checkbox" id="ache" name="ache" value="ache">
+            <label for="chest">Body ache</label>
+            <input type="checkbox" id="chest" name="chest" value="chest">
+            <label for="chest">Chest Congestion or runny nose</label>
+            <input type="checkbox" id="smell" name="smell" value="smell">
+            <label for="eyes">Pink eyes</label>
+            <input type="checkbox" id="hear" name="hear" value="hear">
+            <label for="smell">Loss of smell and taste</label>
+            <input type="checkbox" id="eyes" name="eyes" value="eyes">
+            <label for="hear">Hearing impairment</label>
+            <input type="checkbox" id="gastro" name="gastro" value="gastro">
+            <label for="gastro">Gastrointestinal symptoms</label>
+            <input type="checkbox" id="none" name="none" value="none">
+            <label for="gastro">None of These</label>
+            </span>
+          </div>
+          <br>
+          <div class="input-box">
+            <span>
+            <span class="details">Do you have any of the following pre-existing conditions?</span>
+            <!-- <div class="category"> -->
+            <div class="checkboxes">
+            <input type="checkbox" id="diabetes" name="diabetes" value="diabetes">
+            <label for="diabetes">Diabetes</label>
+            <input type="checkbox" id="hyper" name="hyper" value="hyper">
+            <label for="hyper">Hypertension</label>
+            <input type="checkbox" id="lung" name="lung" value="lung">
+            <label for="lung">Lung disease</label>
+            <input type="checkbox" id="heart" name="heart" value="heart">
+            <label for="heart">Heart Disease</label>
+            <input type="checkbox" id="kidney" name="kidney" value="kidney">
+            <label for="kidney">Kidney Disorder</label>
+            <input type="checkbox" id="asthma" name="asthma" value="asthma">
+            <label for="asthma">Asthma</label>
+            <input type="checkbox" id="none" name="none" value="none">
+            <label for="gastro">None of These</label>
+            </span>
+          </div><br>
+          <div class="normal-details">
+            <input type="radio" name="normal" id="dot2-1">
+            <input type="radio" name="normal" id="dot2-2">
+            <input type="radio" name="normal" id="dot2-3">
+            <span class="normal-title">Which of the following applies to you?</span>
+            <div class="category2">
+              <label for="dot2-1">
+              <span class="dot2 one"></span>
+              <span class="normal">I have recently interacted with COVID-19 +ve person</span>
+            </label>
+            <label for="dot2-2">
+              <span class="dot2 two"></span>
+              <span class="normal">I examined COVID-19 confirmed case</span>
+            </label>
+            <label for="dot2-3">
+              <span class="dot2 three"></span>
+              <span class="normal">None of the above</span>
+            </label>
+        </div>
+        <div class="button">
+          <button id="submit_btn">Submit</button><br><br>
+          <label><h2>Output: </h2></label>
+          <p><span id='display'></span></span></p>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script language="JavaScript">
+    document.getElementById("submit_btn").addEventListener("click", function(event){
+      event.preventDefault();
+      document.getElementById('display').innerHTML = 
+                        //document.getElementById("ref_no").value + '-' +
+                      document.getElementById("age").value ; 
+                      // + ' (' + document.getElementById("year").value +')'
+                      // + ' ' + '<i>' + document.getElementById("title").value + '</i>'+', ' + document.getElementById("edition").value + ' edn., '
+                      // + document.getElementById("place").value + ': ' + document.getElementById("pub_name").value  + '.' ;
+    });
+  </script>
+</body>
+</html>
