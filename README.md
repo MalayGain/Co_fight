@@ -18,7 +18,7 @@ Covid-19 has been affecting us since the last one and a half years. We thought i
 
 
 ## Our Demo 👉
-[![covid-home](./images/cof_home.png)](https://youtu.be/oh-btKnbTpY)
+[![covid-home](./images/cof_home.png)](https://youtu.be/T0DyFCkg9nI)
 
 ## Glimpses 👉
 
