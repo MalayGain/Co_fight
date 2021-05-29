@@ -51,7 +51,7 @@ nav {
 }
 
 .main {
-  background: #fe9a99;
+  background-image: linear-gradient(135deg, #d271e6, #eb7272);
   height: 90vh;
   display: flex;
   justify-content: space-evenly;
