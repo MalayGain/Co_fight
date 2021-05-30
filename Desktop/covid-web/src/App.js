@@ -72,7 +72,7 @@ function App() {
     <div className="app">
       <div className="app__left">
         <div className="app__header">
-          <h1>COVID-19 Tracker</h1>
+          <a href="https://cofighthackon.netlify.app/index.html" style={{textDecoration:'none',color:'CaptionText'}}><h1>COVID-19 Tracker</h1></a>
           <FormControl className="app__dropdown">
             <Select variant="outlined" onChange={onCountryChange} value={country}>
               <MenuItem value="worldwide">Worldwide</MenuItem>
