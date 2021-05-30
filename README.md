@@ -26,7 +26,7 @@ Covid-19 has been affecting us since the last one and a half years. We thought i
 ![chat](images/chat-bot.png)
 
 ### Co-Fight Self Assesment
-![chat](images/chat-bot.png)
+![chat](images/self_assess.png)
 
 ### Co-Fight Tracker
 ![tracker](images/cof_trcac.png)
