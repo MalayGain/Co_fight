@@ -25,14 +25,14 @@ Covid-19 has been affecting us since the last one and a half years. We thought i
 ### Co-Fight Chatbot 
 ![chat](images/chat-bot.png)
 
-### Co-Fight Self Assesment
-![chat](images/self_assess.png)
-
 ### Co-Fight Tracker
 ![tracker](images/cof_trcac.png)
 
 ### Vaccination Tracker
 ![vaccine](images/cof_vaccine.png)
+
+### Co-Fight Self Assesment
+![chat](images/self_assess.png)
 
 ## Idea 👉
 Crona Virus has affected our lives really bad. During this time while we sit at our home we thought to make a collection of all important sites which will guide evryone in fighting Covid-19 and will also make our lives easier. Co-fight tries to fulfil that need.
