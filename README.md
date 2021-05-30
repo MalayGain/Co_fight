@@ -58,7 +58,7 @@ HTML, CSS, Javascript, React, Material UI
 ## Further prospects 
 1. We plan on improving the app's functionalities and design
 2. We plan on providing a user interface for signing in and implement user authentication.
-2. We can also maintain medical logs of students.
+2. We can also maintain medical logs of users.
 
 
 ## View our Deployment here 👉
