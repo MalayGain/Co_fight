@@ -43,7 +43,7 @@ Crona Virus has affected our lives really bad. During this time while we sit at 
 3. A Vaccination visualization which will give you an idea about the number of vaccine doses being administered.
 
 ## Tech Stack used
-HTML, CSS, React, Material UI
+HTML, CSS, Javascript, React, Material UI
 
 
 
