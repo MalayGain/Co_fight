@@ -22,7 +22,10 @@ Covid-19 has been affecting us since the last one and a half years. We thought i
 
 ## Glimpses 👉
 
-### Co-Fight chatbot 
+### Co-Fight Chatbot 
+![chat](images/chat-bot.png)
+
+### Co-Fight Self Assesment
 ![chat](images/chat-bot.png)
 
 ### Co-Fight Tracker
