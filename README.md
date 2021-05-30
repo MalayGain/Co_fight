@@ -11,7 +11,7 @@
 </div>
 <hr>
 
-Covid-19 has been affecting us since the last one and a half years. We thought it would be a good idea to come up with a web app which would provide all your requirements regarding covid in one place. Our Co-Fight app contains links to all the important portals like CoWin, Who and MoHFW. It also contains a visualisation of vaccinations , a Covid Tracker and also a vaccination visualization.  
+Covid-19 has been affecting us since the last one and a half years. We thought it would be a good idea to come up with a web app which would provide all your requirements regarding covid in one place. Our Co-Fight app contains links to all the important portals like CoWin, Who and MoHFW. It also contains a visualisation of vaccinations , a Covid Tracker, a Vaccination visualization. It also contains a self assessment page where you can check about your risk of Covid infection.  
 
 ## Our chosen theme 👉 
 ![covid-impact](./images/cov_impact.png)
