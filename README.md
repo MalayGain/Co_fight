@@ -63,3 +63,9 @@ HTML, CSS, Javascript, React, Material UI
 
 ## View our Deployment here 👉
 https://cofighthackon.netlify.app/
+
+## Team Members 👉
+- Devatnu Misra
+- Abhinaba Chowdhury
+- Sayak Rana
+- Malay Gain
