@@ -17,7 +17,7 @@ Covid-19 has been affecting us since the last one and a half years. We thought i
 ![covid-impact](./images/cov_impact.png)
 
 
-## Our Demo 👉
+## Our Demo  (click on image ) 👉
 [![covid-home](./images/homepg.png)](https://youtu.be/t_LsQxev5Bo)
 
 ## Glimpses 👉
@@ -51,12 +51,14 @@ HTML, CSS, Javascript, React, Material UI
 1. Building app in 2 days.
 2. Collaborating with members virtually.
 3. Making the tracker apps using React
+4. Implementing design using Material UI
 
 
 
 ## Further prospects 
-1. We plan on improving the app's functionalities and implement user authentication.
-2. To help people check their health status.
+1. We plan on improving the app's functionalities and design
+2. We plan on providing a user interface for signing in and implement user authentication.
+2. We can also maintain medical logs of students.
 
 
 ## View our Deployment here 👉
