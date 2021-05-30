@@ -35,7 +35,7 @@ Covid-19 has been affecting us since the last one and a half years. We thought i
 ![assess](images/self_assess.png)
 
 ## Idea 👉
-Crona Virus has affected our lives really bad. During this time while we sit at our home we thought to make a collection of all important sites which will guide evryone in fighting Covid-19 and will also make our lives easier. Co-fight tries to fulfil that need.
+Corona Virus has affected our lives really bad. During this time while we sit at our home we thought to make a collection of all important sites which will guide evryone in fighting Covid-19 and will also make our lives easier. Co-fight tries to fulfil that need.
 
 ## Features 👉
 1. Link to important Covid-related sites like WHO, MOHFW, CoWin
