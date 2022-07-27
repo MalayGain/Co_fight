@@ -1,5 +1,5 @@
 ## covid-web
-Covid Tracker
+Covid Tracker (https://cotrack.netlify.app/)
 
 
 
